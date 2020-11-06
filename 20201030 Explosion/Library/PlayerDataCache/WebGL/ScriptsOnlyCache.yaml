@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp-Editor.dll:
     - ReadmeEditor
     Assembly-CSharp.dll:
+    - Playpartical
     - Readme
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
@@ -33,28 +34,11 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.Editor.dll:
     - UnityEditor.Rendering.Universal.UniversalProjectSettings
     Unity.RenderPipelines.Universal.Runtime.dll:
-    - UnityEngine.Rendering.Universal.Bloom
-    - UnityEngine.Rendering.Universal.ChannelMixer
-    - UnityEngine.Rendering.Universal.ChromaticAberration
-    - UnityEngine.Rendering.Universal.ColorAdjustments
-    - UnityEngine.Rendering.Universal.ColorCurves
-    - UnityEngine.Rendering.Universal.ColorLookup
-    - UnityEngine.Rendering.Universal.DepthOfField
-    - UnityEngine.Rendering.Universal.FilmGrain
     - UnityEngine.Rendering.Universal.ForwardRendererData
-    - UnityEngine.Rendering.Universal.LensDistortion
-    - UnityEngine.Rendering.Universal.LiftGammaGain
-    - UnityEngine.Rendering.Universal.MotionBlur
-    - UnityEngine.Rendering.Universal.PaniniProjection
     - UnityEngine.Rendering.Universal.PostProcessData
-    - UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
-    - UnityEngine.Rendering.Universal.SplitToning
-    - UnityEngine.Rendering.Universal.Tonemapping
     - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
-    - UnityEngine.Rendering.Universal.Vignette
-    - UnityEngine.Rendering.Universal.WhiteBalance
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -62,6 +46,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -76,20 +62,32 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Toggle
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/20201030_Explosion.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
       Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
     - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
       Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 89
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
       Script: {instanceID: 0}
     - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11356}
@@ -106,74 +104,88 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 11596}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11628}
+      Script: {instanceID: 11722}
     - Class: 114
-      Script: {instanceID: 11794}
+      Script: {instanceID: 11888}
     - Class: 114
-      Script: {instanceID: 11834}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 11988}
+      Script: {instanceID: 12082}
     - Class: 114
-      Script: {instanceID: 12318}
+      Script: {instanceID: 12370}
     - Class: 114
-      Script: {instanceID: 12376}
+      Script: {instanceID: 12412}
     - Class: 114
-      Script: {instanceID: 12596}
+      Script: {instanceID: 12470}
     - Class: 114
-      Script: {instanceID: 12794}
+      Script: {instanceID: 12584}
     - Class: 114
-      Script: {instanceID: 12834}
+      Script: {instanceID: 12690}
     - Class: 114
-      Script: {instanceID: 12890}
+      Script: {instanceID: 12886}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 13240}
+      Script: {instanceID: 12982}
     - Class: 114
-      Script: {instanceID: 13266}
+      Script: {instanceID: 13014}
     - Class: 114
-      Script: {instanceID: 13532}
+      Script: {instanceID: 13076}
     - Class: 114
-      Script: {instanceID: 13592}
+      Script: {instanceID: 13332}
     - Class: 114
-      Script: {instanceID: 13612}
+      Script: {instanceID: 13358}
     - Class: 114
-      Script: {instanceID: 13732}
+      Script: {instanceID: 13624}
     - Class: 114
-      Script: {instanceID: 13760}
+      Script: {instanceID: 13684}
     - Class: 114
-      Script: {instanceID: 13768}
+      Script: {instanceID: 13704}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 13824}
     - Class: 114
-      Script: {instanceID: 14130}
+      Script: {instanceID: 13852}
     - Class: 114
-      Script: {instanceID: 14350}
+      Script: {instanceID: 13860}
     - Class: 114
-      Script: {instanceID: 14528}
+      Script: {instanceID: 14154}
     - Class: 114
-      Script: {instanceID: 14572}
+      Script: {instanceID: 14218}
     - Class: 114
-      Script: {instanceID: 14762}
+      Script: {instanceID: 14438}
     - Class: 114
-      Script: {instanceID: 14764}
+      Script: {instanceID: 14616}
     - Class: 114
-      Script: {instanceID: 14812}
+      Script: {instanceID: 14660}
     - Class: 114
-      Script: {instanceID: 14924}
+      Script: {instanceID: 14850}
     - Class: 114
-      Script: {instanceID: 14930}
+      Script: {instanceID: 14852}
+    - Class: 114
+      Script: {instanceID: 14880}
+    - Class: 114
+      Script: {instanceID: 14900}
+    - Class: 114
+      Script: {instanceID: 15012}
+    - Class: 114
+      Script: {instanceID: 15018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -182,8 +194,6 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
-      Script: {instanceID: 0}
-    - Class: 258
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -228,6 +238,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 723614de6aa8ab77c2d95f1e7d3c733b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
   - hash:
       serializedVersion: 2
       Hash: c42672c997f8be6b1aa86a927ebea785
@@ -516,12 +532,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: FilmGrain
-  - hash:
-      serializedVersion: 2
-      Hash: 723614de6aa8ab77c2d95f1e7d3c733b
-    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
-    namespaceName: UnityEngine.Rendering.Universal
-    className: UniversalRenderPipelineAsset
   - hash:
       serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
@@ -1010,5 +1020,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 20
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/User/Desktop/smallQ1030/20201030 BUILD
+  - Assets/20201030_Explosion.unity
+  playerPath: C:/Users/User/Desktop/20201030 smalllq/smallQ1030/20201030 homeworkqq

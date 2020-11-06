@@ -1,0 +1,16 @@
+{
+"companyName": "QQ",
+"productName": "QQ",
+"productVersion": "0.1",
+"dataUrl": "20201030 homeworkqq.data.unityweb",
+"wasmCodeUrl": "20201030 homeworkqq.wasm.code.unityweb",
+"wasmFrameworkUrl": "20201030 homeworkqq.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": true,
+"multithreading": false,
+"unityVersion": "2019.4.10f1"
+}
